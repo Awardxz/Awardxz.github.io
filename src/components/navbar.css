@@ -1,0 +1,37 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.block {
+  margin-left: 5px;
+  width: 1500px;
+  height: 50px;
+  background-image: linear-gradient(
+    50deg,
+    hsla(307, 38%, 55%, 0.151) 0%,
+    hsla(303, 43%, 55%, 0.76) 19%,
+    hsla(298, 48%, 54%, 0.815) 27%,
+    hsla(294, 53%, 54%, 0.801) 34%,
+    hsla(290, 59%, 54%, 0.781) 41%,
+    hsla(285, 64%, 53%, 0.781) 47%,
+    hsla(281, 69%, 53%, 0.788) 53%,
+    hsl(276deg 74% 53%) 59%,
+    hsla(272, 79%, 52%, 0.712) 66%,
+    hsla(268, 84%, 52%, 0.726) 73%,
+    hsla(263, 90%, 52%, 0.589) 81%,
+    hsla(259, 95%, 52%, 0.233) 100%
+  );
+  background-size: 100%;
+  border-radius: 12px 12px 12px 12px;
+}
+
+
+.block > p {
+  margin-top: 10px;
+  margin-left: 5px;
+  font-size: 20px;
+  font-weight: 730;
+}
+

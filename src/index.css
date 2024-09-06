@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap");
+
+:root {
+  font-family: "Syne", sans-serif;
+  line-height: 1.5;
+  font-weight: 600;
+  width: 100%;
+  height: 100%;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #000000;
+  opacity: 1;
+  background-image: repeating-radial-gradient(
+    circle at 0 0,
+    transparent 0,
+    #000000 120px
+  ),
+  repeating-linear-gradient(#ff2ed20e, #a200ff27);
+  animation: animateBackground 150s linear infinite; /* Add animation */
+  background-size: 200% 200%; /* Increase background size for more visible movement */
+  background-repeat: no-repeat;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+
+}
+
+@media only screen and (max-width: 1200px) {
+  :root{
+    background-image: repeating-radial-gradient(
+      circle at 0 0,
+      transparent 0,
+      #000000 120px
+    ),
+    repeating-linear-gradient(#ff2ed228, #a200ff10);
+    background-size: 1000% 1000%; /* Increase background size for more visible movement */
+    animation: animateBackground 250s linear infinite; /* Add animation */
+  }
+  
+}
+
+@keyframes animateBackground {
+  0% {
+    background-position: 0 0, 0 0; /* Initial position */
+  }
+  50% {
+    background-position: 100% 100%, 100% 100%; /* Move to bottom-right */
+  }
+  100% {
+    background-position: 0 0, 0 0; /* Return to initial position */
+  }
+}
