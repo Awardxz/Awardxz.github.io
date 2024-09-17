@@ -1,0 +1,27 @@
+[
+    {
+      "src": "https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png",
+      "alt": "HTML5"
+    },
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/768px-CSS3_logo.svg.png",
+      "alt": "CSS"
+    },
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
+      "alt": "JavaScript"
+    },
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg",
+      "alt": "Node.js"
+    },
+    {
+      "src": "https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/181_Java_logo_logos-512.png",
+      "alt": "Java"
+    },
+    {
+      "src": "https://cdnlogo.com/logos/r/85/react.svg",
+      "alt": "ReactJS"
+    }
+  ]
+  
