@@ -1,10 +1,10 @@
 import "./App.css";
 import Block from "./components/content";
 import NavBar from "./components/navbar";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import logoArray from './logoArray.json'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import logoArray from "./logoArray.json";
 function App() {
-  const logosArray = logoArray
+  const logosArray = logoArray;
 
   const logoElements = logosArray.map((logo, index) => (
     <img
@@ -99,7 +99,7 @@ function App() {
             }
           />
           <Block
-            colorClass={"gardient-red logoCon logoCon4 git"}
+            colorClass={"gardient-red logoCon logoCon5 git"}
             title={
               <div className="projectFit">
                 <h2 className="projectName">age-counter</h2>
@@ -124,7 +124,7 @@ function App() {
             }
           />
           <Block
-            colorClass={"gardient-red logoCon logoCon5 git"}
+            colorClass={"gardient-red logoCon logoCon6 git"}
             title={
               <div className="projectFit">
                 <h2 className="projectName">quizzizV2</h2>
@@ -150,7 +150,7 @@ function App() {
               </a>
             }
           />
-                              <Block
+          <Block
             colorClass={"gardient-red logoCon logoConShort git"}
             title={
               <div className="projectFit">
@@ -200,13 +200,13 @@ function App() {
               </a>
             }
           />
-                    <Block
+          <Block
             colorClass={"gardient-red logoCon logoConShort logoConShort2 git"}
             title={
               <div className="projectFit">
                 <h2 className="projectName">waledShooter</h2>
                 <p>
-                   Spaceship Shooter 2D Game
+                  Spaceship Shooter 2D Game
                   <br />
                   Project was built HTML , CSS , JS
                   <br />
@@ -226,7 +226,7 @@ function App() {
             }
           />
           <Block
-            colorClass={"gardient-red logoCon logoCon6 git"}
+            colorClass={"gardient-red logoCon logoCon7 git"}
             title={
               <div className="projectFit">
                 <h2 className="projectName">????</h2>
@@ -240,39 +240,78 @@ function App() {
               </div>
             }
           />
+
           <Block
-            colorClass={"gardient-red logoCon logoCon7"}
+            colorClass={"gardient-red logoCon logoCon4 git"}
+            title={
+              <div className="projectFit">
+                <h2 className="projectName">
+                  Youtube Channel Automation (Contribution)
+                </h2>
+                <p>
+                  Contributed to Open Source GitHub Project
+                  <br />
+                  Project was built on NodeJS with libraries
+                  <br />
+                  Public
+                </p>
+              </div>
+            }
+            info={
+              <a
+                href="https://github.com/Taulant21/youtube-channel-automation"
+                target="__BLANK"
+              >
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg"
+                  alt="githubrepo"
+                  width={"100px"}
+                  height={"100px"}
+                ></img>
+              </a>
+            }
+          />
+          <Block
+            colorClass={"gardient-red logoCon logoCon8"}
             title={
               <div className="projectFit">
                 <h2 className="projectName contact">Contacts</h2>
                 <p>
-                If you'd like to contact me , you can find me here
-                <div className="contactChildren">
-                <a href="https://github.com/Awardxz">
-                  <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg"
-                  alt="github"
-                  width={"50px"}
-                  height={"50px"}></img>
-                </a>
-                <a href="https://steamcommunity.com/id/awardq/">
-                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Steam_icon_logo.svg/2048px-Steam_icon_logo.svg.png"
-                  alt="github"
-                  width={"50px"}
-                  height={"50px"}></img>
-                </a>
-                <a href="https://github.com/Awardxz">
-                  <img src="https://www.svgrepo.com/show/353655/discord-icon.svg"
-                  alt="github"
-                  width={"50px"}
-                  height={"50px"}></img>
-                </a>
-                <a href="mailto:awardxzdeveloper@gmail.com">
-                  <img src="https://www.svgrepo.com/show/14478/email.svg"
-                  alt="github"
-                  width={"50px"}
-                  height={"50px"}></img>
-                </a>
-                </div>
+                  If you'd like to contact me , you can find me here
+                  <div className="contactChildren">
+                    <a href="https://github.com/Awardxz">
+                      <img
+                        src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg"
+                        alt="github"
+                        width={"50px"}
+                        height={"50px"}
+                      ></img>
+                    </a>
+                    <a href="https://steamcommunity.com/id/awardq/">
+                      <img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Steam_icon_logo.svg/2048px-Steam_icon_logo.svg.png"
+                        alt="github"
+                        width={"50px"}
+                        height={"50px"}
+                      ></img>
+                    </a>
+                    <a href="https://github.com/Awardxz">
+                      <img
+                        src="https://www.svgrepo.com/show/353655/discord-icon.svg"
+                        alt="github"
+                        width={"50px"}
+                        height={"50px"}
+                      ></img>
+                    </a>
+                    <a href="mailto:awardxzdeveloper@gmail.com">
+                      <img
+                        src="https://www.svgrepo.com/show/14478/email.svg"
+                        alt="github"
+                        width={"50px"}
+                        height={"50px"}
+                      ></img>
+                    </a>
+                  </div>
                 </p>
               </div>
             }

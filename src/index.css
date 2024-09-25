@@ -16,9 +16,8 @@
     #000000 120px
   ),
   repeating-linear-gradient(#ff2ed20e, #a200ff27);
-  animation: animateBackground 150s linear infinite; /* Add animation */
-  background-size: 200% 200%; /* Increase background size for more visible movement */
-  background-repeat: no-repeat;
+  animation: animateBackground 300s linear infinite;
+  background-size: 300% 300%;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -50,7 +49,7 @@
     background-position: 0 0, 0 0; /* Initial position */
   }
   50% {
-    background-position: 100% 100%, 100% 100%; /* Move to bottom-right */
+    background-position: 100% 100%; /* Move to bottom-right */
   }
   100% {
     background-position: 0 0, 0 0; /* Return to initial position */
