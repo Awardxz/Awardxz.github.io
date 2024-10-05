@@ -52,7 +52,7 @@ function App() {
                   <br />
                   Project was built using NodeJS + Libraries.
                   <br />
-                  It is currently Private.
+                  Public.(Discontinued)
                 </p>
               </div>
             }
